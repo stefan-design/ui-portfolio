@@ -801,18 +801,14 @@ width: 100%;
 
 .dribbble {
     padding: 120px 56px 72px 56px;
-    background-color: #4BAA5A;
+    border: solid #F0452B 1.6px;
+    border-radius: 4px;
     position: relative;
     text-decoration: none;
 }
 
-.dribbble:hover {
-    background: url(/photos/nature.png) no-repeat 50% 50%;
-    background-size: cover;
-}
-
 .dribbble h3 {
-    color: white;
+    color: #F0452B;
     font-family: 'soul' , sans-serif;
     font-size: 48px;
     text-align: center;
@@ -864,16 +860,10 @@ width: 100%;
     font-family: 'Mada' , sans-serif;
     padding-left: 48px;
     font-size: 14px;
-    font-weight: 400;
-    color: #171717;
+    font-weight: 600;
+    color: #4BAA5A;
     margin-top: 8px;
     margin-bottom: 64px;
-}
-
-.t-wrk span {
-    color: #4BAA5A;
-    font-size: 20px;
-    margin-right: 4px
 }
 
 .book-2 {
