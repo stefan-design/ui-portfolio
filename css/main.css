@@ -801,6 +801,7 @@ width: 100%;
 
 .dribbble {
     padding: 120px 56px 72px 56px;
+    margin: 44px 0 44px;
     background: url(/photos/gifs/joy.gif) no-repeat 50% 50%;
     background-size: cover;
     border-radius: 2px;
