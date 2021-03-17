@@ -801,14 +801,15 @@ width: 100%;
 
 .dribbble {
     padding: 120px 56px 72px 56px;
-    border: solid #F0452B 1.6px;
+    background: url(/photos/gifs/joy.gif) no-repeat 50% 50%;
+    background-size: cover;
     border-radius: 4px;
     position: relative;
     text-decoration: none;
 }
 
 .dribbble h3 {
-    color: #F0452B;
+    color: white;
     font-family: 'soul' , sans-serif;
     font-size: 48px;
     text-align: center;
