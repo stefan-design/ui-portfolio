@@ -1801,12 +1801,12 @@ width: 100%;
     animation: cta-o 0.6s ease-in-out;
 }
 
-.start5 h4:hover {
+.start6 h4:hover {
     color: #aa2222;
     animation: cta-h 0.6s ease-in-out;
 }
 
-.start5 h4:hover:before {
+.start6 h4:hover:before {
     -webkit-transition: 1s !important;
     content: "";
     position: absolute;
@@ -1817,6 +1817,55 @@ width: 100%;
     border-radius: 2px;
     z-index: 1;
     background: url(/photos/gifs/pr-like-4.gif) no-repeat 50% 50%;
+    background-size: cover;
+    animation: anim 3.2s ease-in-out;
+}
+
+.start6 {
+    text-align: center;
+    position: relative;
+    padding-top: 64px;
+    border-radius: 2px;
+    padding-bottom: 64px;
+    margin-top: 96px;
+    margin-bottom: 96px;
+    background-color: #5a0202;
+}
+
+.start6 p {
+    font-family: 'Mada', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 16px;
+    color: white;
+}
+
+.start6 h4 {
+    font-family: 'soul' , sans-serif;
+    font-size: 32px;
+    line-height: 32px;
+    margin: 0;
+    color: #F0452B;
+    text-decoration: underline;
+    animation: cta-o 0.6s ease-in-out;
+}
+
+.start6 h4:hover {
+    color: #aa2222;
+    animation: cta-h 0.6s ease-in-out;
+}
+
+.start6 h4:hover:before {
+    -webkit-transition: 1s !important;
+    content: "";
+    position: absolute;
+    left: 55%;
+    bottom: 50%;
+    width: 220px;
+    height: 180px;
+    border-radius: 2px;
+    z-index: 1;
+    background: url(/photos/gifs/pr-like-1.gif) no-repeat 50% 50%;
     background-size: cover;
     animation: anim 3.2s ease-in-out;
 }
